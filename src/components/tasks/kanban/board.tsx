@@ -8,7 +8,7 @@ import {
 } from '@dnd-kit/core'
 
 export const KanbanBoardContainer = (
-  { children }: React.PropsWithChildren<Props>
+  { children }: React.PropsWithChildren
 ) => {
   return (
     <div
