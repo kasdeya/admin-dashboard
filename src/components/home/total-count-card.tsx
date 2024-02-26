@@ -1,11 +1,10 @@
 import { totalCountVariants } from '@/constants'
 import { Area, AreaConfig } from '@ant-design/plots'
 import { Card, Skeleton } from 'antd'
-import React from 'react'
 import { Text } from '../text'
 type Props = {
   resource: 'companies' | 'contacts' | 'deals',
-  isLading: boolean,
+  isLoading: boolean,
   totalCount?: number
 }
 
